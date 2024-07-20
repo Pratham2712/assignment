@@ -1,38 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --blue: #3C50E0;
+  --black: #1C2434;
+}
+html {
+  &::-webkit-scrollbar {
+      width: 0.5rem;
+  }
+  &::-webkit-scrollbar-thumb {
+      background-color: darkgrey;
+  }
+  scroll-behavior: smooth;
+  overflow-x: hidden; 
+
+}
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  background-color: #F1F5F9;
+}
 .App {
-  text-align: center;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  background-color: #F1F5F9;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bread{
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.breadcrumb{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  padding-top: 5rem;
+  padding-right: 2rem;
+  list-style: none;
 }
-
-.App-link {
-  color: #61dafb;
+li {
+  margin-left: 0.2rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.breadcrumb-item  {
+  color: blue;
+  text-decoration: none;
+}
+.breadcrumb-item a  {
+  color: grey;
+  text-decoration: none;
 }

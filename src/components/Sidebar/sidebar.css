@@ -1,0 +1,65 @@
+.sidebar{
+    background-color: var(--black);
+    width: 20%;
+    height: 100vh;
+    padding: 0rem 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.logo img{
+    height: 45px;
+    width:  45px;
+    margin-right: 0.6rem;
+}
+
+.com-name {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 0.9rem;
+}
+.forms {
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 4px;
+    user-select: none;
+    transition: all ease-in 0.2s;
+}
+.forms:hover{
+    background-color: #333A48;
+}
+.forms-content {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.form-name {
+    margin-left: 0.5rem;
+}
+.forms img {
+    height: 25px;
+    width:  25px;
+}
+.form-ele {
+    color: #8A99AF;
+    padding: 0.3rem 0rem;
+    cursor: pointer;
+}
+.form-con {
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+.form-ele:hover{
+    color: white;
+}

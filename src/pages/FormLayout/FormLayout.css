@@ -1,0 +1,17 @@
+.form-content {
+    padding: 0rem 1rem;
+}
+.form-1 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-right: 1.5rem;
+    padding: 1rem 1rem;
+}
+.form-2 {
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.input-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
